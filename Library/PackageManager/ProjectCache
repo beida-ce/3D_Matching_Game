@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638733290405395538
-    m_Hash: 147489845
+      ticks: 638733493709843128
+    m_Hash: 1368130682
   m_LockFileStatus:
     m_FilePath: C:/Users/beyda/Desktop/unity/projects/210601025-makeupexam/210601025-makeupexam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638733290405465547
-    m_Hash: 3346919937
+      ticks: 638733493709853127
+    m_Hash: 1575173926
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

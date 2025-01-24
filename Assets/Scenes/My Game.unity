@@ -1064,11 +1064,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabsToSpawn:
-  - prefab: {fileID: 2365993033125866905, guid: 640ed753821ca124581b0d97fae8aaa7, type: 3}
+  - prefab: {fileID: 1475775928012502632, guid: 640ed753821ca124581b0d97fae8aaa7, type: 3}
     count: 4
-  - prefab: {fileID: 8555725986089747730, guid: 2fa8ce5b6a744db4ab9e28cf69050da0, type: 3}
+  - prefab: {fileID: 9024413902265752828, guid: 2fa8ce5b6a744db4ab9e28cf69050da0, type: 3}
     count: 4
-  - prefab: {fileID: 7082802969680608082, guid: 3ff14a20f5395044eaaafb96bb86d880, type: 3}
+  - prefab: {fileID: 7789398660066175879, guid: 3ff14a20f5395044eaaafb96bb86d880, type: 3}
     count: 4
   spawnAreaMin: {x: 1, y: 0}
   spawnAreaMax: {x: 0, y: 1}

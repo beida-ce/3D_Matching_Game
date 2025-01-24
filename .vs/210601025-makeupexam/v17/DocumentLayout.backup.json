@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\assets\\scripts\\placementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|c:\\users\\beyda\\desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\assets\\scripts\\placementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\placementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|c:\\users\\beyda\\desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\assets\\scripts\\findpair_skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\findpair_skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\assets\\scripts\\dragger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|c:\\users\\beyda\\desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\assets\\scripts\\gamereset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\assets\\scripts\\gamereset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C2F05FE-BA5B-BC6F-363E-6D39DDD364DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamereset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\beyda\\desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\assets\\scripts\\findpair_skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\findpair_skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FindPair_Skill.cs",
               "DocumentMoniker": "C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\Assets\\Scripts\\FindPair_Skill.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FindPair_Skill.cs",
@@ -46,12 +46,11 @@
               "RelativeToolTip": "Assets\\Scripts\\FindPair_Skill.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAwwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T17:11:22.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T17:11:22.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GameReset.cs",
               "DocumentMoniker": "C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\Assets\\Scripts\\GameReset.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameReset.cs",
@@ -59,12 +58,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameReset.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T15:10:28.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-24T15:10:28.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Dragger.cs",
               "DocumentMoniker": "C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\Assets\\Scripts\\Dragger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dragger.cs",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Dragger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T15:44:04.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T15:44:04.368Z"
             },
             {
               "$type": "Document",
@@ -90,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\beyda\\Desktop\\unity\\projects\\210601025-makeupexam\\210601025-makeupexam\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAqwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T15:40:29.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-21T15:40:29.022Z"
             }
           ]
         }
