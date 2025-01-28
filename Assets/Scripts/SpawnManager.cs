@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [System.Serializable]
 public class SpawnablePrefab
@@ -8,8 +7,6 @@ public class SpawnablePrefab
     public GameObject prefab; // Spawn edilecek prefab
     public int count; // Üretilecek nesne sayýsý
 }
-
-
 
 public class SpawnManager : MonoBehaviour
 {
@@ -22,7 +19,7 @@ public class SpawnManager : MonoBehaviour
     public AudioClip backgroundMusic; // Arka plan müzik dosyasý
     private AudioSource audioSource; // AudioSource bileþeni
 
-    public List<Vector3> spawnedPositions = new List<Vector3>(); // Spawn edilen pozisyonlar
+    private List<GameObject> spawnedObjects = new List<GameObject>(); // Spawn edilen nesneler (bu listeyi kullanarak nesneleri takip edeceðiz)
 
     void Start()
     {
@@ -36,6 +33,26 @@ public class SpawnManager : MonoBehaviour
 
         // Prefablarý spawn et
         SpawnAllObjects();
+    }
+
+    void Update()
+    {
+        // Sahnedeki nesneleri kontrol et ve eðer hiç nesne yoksa yeniden spawn et
+        if (spawnedObjects.Count == 0)
+        {
+            SpawnAllObjects(); // Eðer hiç nesne yoksa yeniden spawn et
+        }
+        else
+        {
+            // Sahnedeki spawn edilen nesnelerin hala var olup olmadýðýný kontrol et
+            for (int i = spawnedObjects.Count - 1; i >= 0; i--)
+            {
+                if (spawnedObjects[i] == null)
+                {
+                    spawnedObjects.RemoveAt(i); // Nesne yoksa listeden çýkar
+                }
+            }
+        }
     }
 
     public void SpawnAllObjects()
@@ -81,8 +98,8 @@ public class SpawnManager : MonoBehaviour
         // Pozisyon uygun mu kontrol et
         if (IsPositionValid(randomPosition))
         {
-            Instantiate(prefab, randomPosition, Quaternion.identity);
-            spawnedPositions.Add(randomPosition);
+            GameObject newObject = Instantiate(prefab, randomPosition, Quaternion.identity);
+            spawnedObjects.Add(newObject); // Spawn edilen nesneyi listeye ekle
             return true;
         }
 
@@ -91,10 +108,10 @@ public class SpawnManager : MonoBehaviour
 
     bool IsPositionValid(Vector3 position)
     {
-        foreach (Vector3 spawnedPosition in spawnedPositions)
+        foreach (GameObject spawnedObject in spawnedObjects)
         {
             // Daha önceki pozisyonlarla mesafeyi kontrol et
-            if (Vector3.Distance(position, spawnedPosition) < minDistance)
+            if (Vector3.Distance(position, spawnedObject.transform.position) < minDistance)
             {
                 return false; // Pozisyon çok yakýn, geçersiz
             }
@@ -102,6 +119,4 @@ public class SpawnManager : MonoBehaviour
 
         return true; // Pozisyon uygun
     }
-
-
 }

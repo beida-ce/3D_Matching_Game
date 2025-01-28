@@ -23,7 +23,7 @@ public class GameReset : MonoBehaviour
         // SpawnManager'ý kullanarak tüm nesneleri yeniden oluþtur
         if (spawnManager != null)
         {
-            spawnManager.spawnedPositions.Clear(); // Pozisyon listesini temizle
+            //spawnManager.spawnedPositions.Clear(); // Pozisyon listesini temizle
             spawnManager.SpawnAllObjects();       // Nesneleri yeniden oluþtur
         }
         else

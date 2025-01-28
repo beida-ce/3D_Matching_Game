@@ -5,8 +5,7 @@ public class Dragger : MonoBehaviour
 
     private new ParticleSystem particleSystem; // Nesne üzerindeki Particle System
     public bool isDragging = false; // Sürükleme durumunu takip eder
-    public Vector3 originalPosition; // Nesnenin baþlangýç pozisyonu
-    private float liftHeight = 5f; // Nesnenin kalkacaðý yükseklik
+    public Vector3 originalPosition; // Nesnenin baþlangýç pozisyon
 
     void Start()
     {
